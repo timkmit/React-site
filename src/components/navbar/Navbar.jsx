@@ -15,6 +15,13 @@ const togglen = () => {
   return (
     <nav className='nav'>
         <a className='brand'>Brand</a>
+        
+    <div className="d1">
+      <form>
+        <input type="text" placeholder="Искать здесь..." />
+        <button type="submit">Поиск</button>
+      </form>
+    </div>
         <ul className={active}>
             <li className='item'><a className='link'>Home</a></li>
             <li className='item'><a className='link'>About</a></li>
