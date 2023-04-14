@@ -56,8 +56,9 @@ a{
         right: 0;
         width: 50%;
         height: 90vh;
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.76);
         font-size: 2rem;
+        font-weight: bold;
         flex-direction: column;
         transform: translateX(100%);
         border-radius: 0 0 0 15px;
