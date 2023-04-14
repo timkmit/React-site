@@ -1,0 +1,69 @@
+*,*::after, *::before{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 60%;
+}
+body{
+    font-size: 1.6rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 8vh;
+    background: rgb(0, 73, 133);
+}
+.brand{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+.toggle div{
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: darkgrey;
+}
+.toggle{
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .toggle{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        width: 50%;
+        height: 90vh;
+        background-color: rgba(0, 73, 133, 0.664);
+        font-size: 2rem;
+        flex-direction: column;
+        transform: translateX(100%);
+        border-radius: 0 0 0 15px;
+        transition: 0.4s ease-in;
+    }
+}
+.active{
+    transform: translateX(0);
+}
+
