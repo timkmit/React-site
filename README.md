@@ -23,3 +23,6 @@ yarn create vite
 npm install axios
 yarn add axios
 ```
+
+![12121212](https://user-images.githubusercontent.com/75565352/232895984-5ae98eb7-9dca-4192-b57a-755f81f53b33.jpg)
+
