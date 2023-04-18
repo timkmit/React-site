@@ -36,6 +36,7 @@
     grid-row-start: 3;
     grid-row-end: 5;
   }
+  
 img{
     width: 400px;
 }
@@ -65,4 +66,23 @@ img{
     .box1, .box4{
         display: none;
     }
+
+}
+@media screen and (max-width: 1000px){
+  .box3{
+    display: none;
+  }
+  .box2{
+    padding-left: 90px;
+  }
+  .box4{
+    padding-right: 90px;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  
+  .box2 {
+    text-align: right;
+  }
 }
