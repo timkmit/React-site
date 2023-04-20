@@ -1,11 +1,11 @@
 import React from 'react';
 import './Modal.css';
 
-function App() {
+function Modal() {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <div className="App">
+    <div className="modall">
       <button onClick={() => setOpen(true)} className="open-modal-btn">Открыть окно</button>
       <div className={`overlay animated ${open ? 'show' : ''}`}>
         <div className="modal">
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default Modal;
