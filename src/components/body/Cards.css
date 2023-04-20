@@ -1,12 +1,9 @@
 main {
   display:inline-block;
   justify-content: center;
-  align-items: center;
   padding: 50px;
   font-family: "Roboto", sans-serif;
 }
-
-
 .card {
   width: 24rem;
   height: 36rem;
@@ -75,7 +72,8 @@ main {
 
 .itemList{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+
   padding: 30px;
   flex-wrap: wrap;
 }
@@ -106,8 +104,6 @@ main {
     margin:0 auto;
   }
 
-
-
 }
 
 @media screen and (max-width: 610px){
@@ -119,7 +115,6 @@ main {
   }
 
 }
-
 
 .modall {
   text-align: center;
@@ -138,8 +133,6 @@ main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -223,6 +216,15 @@ main {
   opacity: 1;
   visibility: visible;
   transform: translate(-50%, -50%);
+}
+.wrapper2{
+  display:flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.sidebar{
+  padding: 20px;
+  overflow: auto;
 }
 
 

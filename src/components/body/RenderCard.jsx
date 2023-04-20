@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Cards from './Cards';
 import axios from "axios";
 import './Cards.css'
+import SelectedModalCard from './SelectedModalCard';
 
 function RenderCard() {
     const [cards, setCards] = useState([]);
@@ -58,7 +59,7 @@ function RenderCard() {
 
                     {
                         selectedCard !== null && (
-                            <Cards
+                            <SelectedModalCard
                                 title={cards[selectedCard].title}
                                 img={cards[selectedCard].photo}
                                 descriptions={cards[selectedCard].descriptions}
