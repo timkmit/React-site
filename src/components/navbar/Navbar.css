@@ -36,17 +36,20 @@ a{
     align-items: center;
     justify-content: space-around;
     gap: 3rem;
+    z-index: 1000;
 }
 .toggle div{
     width: 2.5rem;
     height: 0.2rem;
     margin: 0.4rem;
     background: rgb(0, 0, 0);
+    z-index: 1000;
 }
 
 .toggle{
     cursor: pointer;
     display: none;
+    z-index: 1000;
 }
 
 @media screen and (max-width: 768px){
